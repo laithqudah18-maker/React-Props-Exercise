@@ -1,16 +1,16 @@
-export default function Post(){
+export default function Post({postName="no title",postBody="nobode"}){
     return (
         <div style={
             {
                 padding:"10px",
                 border:"solid,teal 5px",
                 margin:"25px",
-                
+
             }
         }>
-            <h2>This is The Post Title</h2>
+            <h2>{postName}</h2>
             <hr />
-            <p>This is The Body Title</p>
+            <p>{postBody}</p>
         </div>
     )
 }

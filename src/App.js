@@ -16,13 +16,10 @@ function App() {
                     {/*POST CONTINER*/}
 
         <div style={{width:"70%"}}>
+          <Post postName="props"  postBody="Java-script"/>
+          <Post postName="react" postBody='React'/>
           <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
+          
         </div>
                           {/*==POST CONTINER==*/}
                           {/* SIDE MENU */}
